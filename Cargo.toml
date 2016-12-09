@@ -1,0 +1,12 @@
+[package]
+name = "tree_bench"
+version = "0.1.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+time = "*"
+
+[profile.release]
+debug = true
+
